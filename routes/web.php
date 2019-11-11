@@ -52,3 +52,7 @@ Route::get('/utilisateurs', function (){
         'utilisateurs' => $utilisateurs,
    ]);
 });
+
+Route::get('/test', function (){
+    return view('test');
+});
